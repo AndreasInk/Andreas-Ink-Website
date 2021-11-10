@@ -20,9 +20,9 @@ return (
 <Stack  className="col-md-5 mx-auto" gap={2} direction="horizontal">
     
 <Stack className="" gap={3} direction="vertical">
-    <img src= {AppStore} img/>
-    <img src= {Code} img/>
-    <img src= {Trending} img/>
+    <img className= "icon" src= {AppStore} img/>
+    <img className= "icon" src= {Code} img/>
+    <img className= "icon" src= {Trending} img/>
     
     </Stack>
     

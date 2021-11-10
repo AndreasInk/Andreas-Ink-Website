@@ -7,6 +7,7 @@
   background-color: purple;
   color: white;
   font-size: 620px;
+  max-width: 200px;
 }
 
 body {
@@ -30,7 +31,7 @@ h4 {
   color: white;
   align-items: left;
   text-align: left;
-  padding-top:10px;
+  padding-top:15px;
   max-width: 300px;
   padding-left: 10px;
 }
@@ -54,9 +55,15 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.mockup {
+  height: auto; 
+  width: auto; 
+  margin: auto;
+  max-height: 500px;
+ 
+}
 
-
-img {
+.icon {
   height: auto; 
   width: auto; 
   margin: auto;

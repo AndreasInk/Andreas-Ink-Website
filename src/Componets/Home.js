@@ -62,10 +62,10 @@ const AndreasAnimation = useSpring({
            </Stack>
        <Container>
            <Row>
-           <Col><animated.div className="ball" style={animation}> <img src={Mockup1} style={divStyle} alt="Logo" /> <div className="d-grid gap-2"><Button size="lg" variant="primary">Explore Andreas’s Work</Button></div>
+           <Col><animated.div className="ball" style={animation}> <img className= "mockup" src={Mockup1} style={divStyle} alt="Logo" /> <div className="d-grid gap-2"><Button className= "button-bold" size="lg" variant="primary">Explore Andreas’s Work</Button></div>
            </animated.div></Col>
-           <Col><animated.div className="ball" style={animation2}> <img src={Mockup2} style={divStyle} alt="Logo" /><div className="d-grid ms-auto">{' '}</div>;</animated.div>
-           <animated.div className="ball" style={animation2}> <div className="d-grid ms-auto"><Button  size= "lg" variant="primary" style={{fontFamily:"Catamaran", fontweight: "500"}} >Chat With Andreas</Button></div></animated.div>
+           <Col><animated.div className="ball" style={animation2}> <img src={Mockup2} className= "mockup" style={divStyle} alt="Logo" /><div className="d-grid ms-auto">{' '}</div>;</animated.div>
+           <animated.div className="ball" style={animation2}> <div className="d-grid ms-auto"><Button  className= "button-bold" size= "lg" variant="primary" style={{fontFamily:"Catamaran", fontweight: "500"}} >Chat With Andreas</Button></div></animated.div>
            </Col>
            </Row>
        </Container>
