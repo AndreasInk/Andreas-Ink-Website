@@ -31,6 +31,8 @@ h4 {
   align-items: left;
   text-align: left;
   padding-top:10px;
+  max-width: 300px;
+  padding-left: 10px;
 }
 
 h2 {
@@ -53,14 +55,17 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-img {
-  width: auto;
-  height: auto;
-  padding: 1%;
-}
-img2 {
 
+img {
+  height: auto; 
+  width: auto; 
+  margin: auto;
+  max-width: 300px; 
+  max-height: 300px;
+  align-items: right;
+  padding-left: 10px;
 }
+
 .zstack {
 	display: grid;
 	align-items: center;

@@ -17,7 +17,7 @@ return (
 <Container fluid className="p-0">
 <back> 
 <h2><big>🛠 Developer</big></h2>
-<Stack style={divStyle} className="col-md-5 mx-auto" gap={5} direction="horizontal">
+<Stack  className="col-md-5 mx-auto" gap={2} direction="horizontal">
     
 <Stack className="" gap={3} direction="vertical">
     <img src= {AppStore} img/>
