@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Componets/Header';
 import Home from './Componets/Home';
 import Dev from './Componets/Dev';
+import Innovator from './Componets/Innovator';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Learner from './Componets/Learner';
 function Footer() {
   return (
     
@@ -31,9 +32,10 @@ function App() {
       <Header></Header>
       <Home> </Home>
       
-  
+  <Innovator></Innovator>
       <Dev> </Dev>
-<Footer> </Footer>
+      <Learner> </Learner>
+
     </div>
   );
 }

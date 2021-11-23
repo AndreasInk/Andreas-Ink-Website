@@ -1,7 +1,7 @@
 import { Container, Navbar, Nav, Row, Stack } from "react-bootstrap";
-import AppStore from "./git.png"
-import Code from "./fork.png"
-import Trending from "./calendar.png"
+import AppStore from "./code2.png"
+import Code from "./doc.png"
+import Trending from "./star.png"
 
 const divStyle = {
     margin: "auto",
@@ -22,13 +22,13 @@ const divStyle = {
   };
 
   
-function Dev() {
+function Learner() {
 
 return (
 <> 
 <Container fluid className="p-0">
-<back2 style={divStyle}> 
-<h2><big>🛠 Developer</big></h2>
+<back3 style={divStyle}> 
+<h2><big>🎓 Learner</big></h2>
 <Stack  className="col-md-4 mx-auto" style= {centerStackStyle} gap={2} direction="horizontal" >
     
 <Stack className="" gap={3} direction="vertical">
@@ -40,9 +40,9 @@ return (
     
    
     <Stack  gap={3} direction="vertical">
-    <h4>50 Open Sourced Repos on Github</h4>
-    <h4>1,400 Contributions On Github In 2021</h4>
-    <h4>4 Years Of Software Development Experience</h4>
+    <h4>Knowledgeable in 4 Languages</h4>
+    <h4>Awarded English Academic Excellence Award</h4>
+    <h4>4.14 High School GPA</h4>
     </Stack>
   
     
@@ -50,10 +50,10 @@ return (
     
     </Stack>
     
-    </back2>
+    </back3>
     </Container>
 </>
 
 );
 }
-export default Dev;
+export default Learner;

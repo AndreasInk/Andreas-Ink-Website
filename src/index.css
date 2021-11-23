@@ -7,17 +7,12 @@
   background-color: purple;
   color: white;
   font-size: 620px;
-  max-width: 200px;
+  align-items: center;
+  max-width: 75%;
+  height: 105%;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 back {
   background: linear-gradient( to right bottom, #522FF5, #65CAFA);
   min-height: 50vh;
@@ -27,25 +22,43 @@ back {
   justify-content: center;
   text-align: center;
 }
+back2 {
+  background: linear-gradient( to right bottom, #522FF5, #6765fa);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+back3 {
+  background: linear-gradient( to right bottom, #2f53f5, #6765fa);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 h4 {
+
+ 
   color: white;
   align-items: left;
   text-align: left;
   padding-top:15px;
-  max-width: 300px;
   padding-left: 10px;
+  font-size:2vh;
 }
 
 h2 {
+  font-size:4vh;
   color: white;
   align-items: center;
   text-align: center;
   padding-bottom: 3%;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 h1 {
   font-family: 'Catamaran';
@@ -64,11 +77,10 @@ h1 {
 }
 
 .icon {
-  height: auto; 
-  width: auto; 
+  height: 2vh; 
+width: auto;
+  object-fit: block;
   margin: auto;
-  max-width: 300px; 
-  max-height: 300px;
   align-items: right;
   padding-left: 10px;
 }
