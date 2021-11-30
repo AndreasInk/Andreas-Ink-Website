@@ -24,8 +24,9 @@ return (
     
     <Link className='navBarLink' to="/home">  Home  </Link> |
     <Link className='navBarLink' to="/apps">  Apps  </Link> |  
-    <Link className='navBarLink' to="https://andreasink17.medium.com" target="_blank">  Blog  </Link> |
+    <a className='navBarLink' target="_blank" href="https://andreasink17.medium.com">Blog</a> |
     <Link className='navBarLink' to={AndreasInkResume} target="_blank">  Resume  </Link> 
+   
     {/* <Nav.Link to={AndreasInkResume} target="_blank">Blog</Nav.Link>
     <Nav.Link href={AndreasInkResume} target="_blank">Resume</Nav.Link> */}
     

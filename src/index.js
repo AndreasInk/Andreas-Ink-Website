@@ -32,6 +32,7 @@ import {
 
 import App from "./App";
 import AppShowCase from './Componets/AppShowCase';
+import PodPosture from './Componets/podposture';
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
@@ -40,6 +41,7 @@ render(
      <Route path="/" element={<App />} />
      <Route path="/home" element={<App />} />
       <Route path="/apps" element={<AppShowCase />} />
+      <Route path="/podposture" element={<PodPosture />} />
     </Routes>
   </BrowserRouter>,
   rootElement
