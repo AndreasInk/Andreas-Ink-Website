@@ -11,7 +11,7 @@ import Group74 from './Ai/Frame 19.png'
 import Group75 from './Ai/Frame 20.png'
 import Group21 from './Ai/Frame 21.png'
 import Group24 from './Ai/Frame 24.png'
-import Group25 from './Ai/Frame 25.png'
+import Group25 from './Ai/Frame 17.png'
 import iPad from './Ai/iPad.png'
 import { Link, BrowserRouter } from "react-router-dom";
 // import A from './Ai/A.png'
@@ -59,7 +59,7 @@ function Pages() {
    
       <Page position={[width * 1, 0, 0]} urls={[Group2, Group74, Group73]} />
       <Page position={[width * 0, 0, 0]} urls={[Group21, Group75, iPad]} />
-      <Page position={[width * 2, 0, 0]} urls={[Group24, Group25, Group4]} />
+      <Page position={[width * 2, 0, 0]} urls={[Group24, Group25, Group2]} />
       
     </>
   )
