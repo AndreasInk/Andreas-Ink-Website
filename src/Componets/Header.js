@@ -1,6 +1,7 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Ai from "./Ai.svg"
 import AndreasInkResume from './AndreasInkResume.pdf'
+import { Link } from "react-router-dom";
 function Header() {
 
 return (
@@ -9,7 +10,7 @@ return (
   <br />
   <Navbar bg="light" variant="light">
     <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/home">
         <img
           alt=""
           src={Ai}
@@ -21,7 +22,8 @@ return (
       </Navbar.Brand>
     </Container>
     
-    <Nav.Link href="#home">Home</Nav.Link>
+    <Link to="/home">Home</Link> |{" "}
+    <Link to="/apps">Apps</Link>
     <Nav.Link href="https://andreasink17.medium.com">Blog</Nav.Link>
     <Nav.Link href={AndreasInkResume} target="_blank">Resume</Nav.Link>
     
