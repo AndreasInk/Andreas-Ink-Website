@@ -53,7 +53,7 @@ const AndreasAnimation = useSpring({
 
     return(
         <div> 
-             <div className="ball" style={AndreasAnimation}> <img style={divStyle} src={Andreas} width = "85%"></img>;</div>
+             <div className="ball" style={AndreasAnimation}> <img style={divStyle} src={Andreas} width = "85%"></img></div>
              <Stack direction="vertical" gap={3}>
                  
              <Stack direction="horizontal" gap={3}>

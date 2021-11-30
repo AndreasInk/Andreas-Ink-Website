@@ -22,10 +22,12 @@ return (
       </Navbar.Brand>
     </Container>
     
-    <Link to="/home">Home</Link> |{" "}
-    <Link to="/apps">Apps</Link>
-    <Nav.Link href="https://andreasink17.medium.com">Blog</Nav.Link>
-    <Nav.Link href={AndreasInkResume} target="_blank">Resume</Nav.Link>
+    <Link className='navBarLink' to="/home">  Home  </Link> |
+    <Link className='navBarLink' to="/apps">  Apps  </Link> |  
+    <Link className='navBarLink' to="https://andreasink17.medium.com" target="_blank">  Blog  </Link> |
+    <Link className='navBarLink' to={AndreasInkResume} target="_blank">  Resume  </Link> 
+    {/* <Nav.Link to={AndreasInkResume} target="_blank">Blog</Nav.Link>
+    <Nav.Link href={AndreasInkResume} target="_blank">Resume</Nav.Link> */}
     
   </Navbar>
 </>
