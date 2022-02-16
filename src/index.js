@@ -29,20 +29,33 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
+import Header from './Componets/Header';
 import App from "./App";
 import AppShowCase from './Componets/AppShowCase';
 import PodPosture from './Componets/podposture';
 const rootElement = document.getElementById("root");
 render(
+  <div>
   <BrowserRouter>
   
   <Routes>
-     <Route path="/" element={<App />} />
-     <Route path="/home" element={<App />} />
-      <Route path="/apps" element={<AppShowCase />} />
+     <Route path="/" element={
+     <div>
+     <Header></Header>
+     <App />
+     </div>} />
+     <Route path="/home" element={<div>
+     <Header></Header>
+     <App />
+     </div>} />
+      <Route path="/apps" element={<div>
+     <Header></Header>
+     <AppShowCase />
+     </div>} />
       <Route path="/podposture" element={<PodPosture />} />
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </div>,
+  
   rootElement
 );

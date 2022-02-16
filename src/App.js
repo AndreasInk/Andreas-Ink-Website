@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Componets/Header';
+
 import Home from './Componets/Home';
 import Dev from './Componets/Dev';
 import Innovator from './Componets/Innovator';
@@ -29,7 +29,7 @@ window.open("https://www.github.com/AndreasInk");
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      
       <Home> </Home>
       
   <Innovator></Innovator>

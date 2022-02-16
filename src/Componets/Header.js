@@ -6,9 +6,9 @@ function Header() {
 
 return (
 
-<>
-  <br />
-  <Navbar bg="light" variant="light">
+  <div> 
+  
+  <Navbar bg="light" variant="light" style={{paddingTop: "0",  marginTop: "0"}}>
     <Container>
       <Navbar.Brand href="/home">
         <img
@@ -31,7 +31,7 @@ return (
     <Nav.Link href={AndreasInkResume} target="_blank">Resume</Nav.Link> */}
     
   </Navbar>
-</>
+</div>
 );
 
 }

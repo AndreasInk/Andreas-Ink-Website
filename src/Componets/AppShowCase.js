@@ -13,6 +13,7 @@ import Group21 from './Ai/Frame 21.png'
 import Group24 from './Ai/Frame 24.png'
 import Group25 from './Ai/Frame 17.png'
 import iPad from './Ai/iPad.png'
+import Header from './Header'
 import { Link, BrowserRouter } from "react-router-dom";
 // import A from './Ai/A.png'
 
@@ -67,9 +68,11 @@ function Pages() {
 
 export default function AppShowCase() {
     return (
-       
-        <Canvas gl={{ antialias: false }} dpr={[1, 1.5]}>
-             <BrowserRouter>
+      
+      <div className="App">
+        <Canvas gl={{ antialias: false }} dpr={[1, 1.5]} style={{minHeight: "500px"}}>
+    
+           
           <Suspense fallback={null}>
             <ScrollControls horizontal damping={4} pages={3} distance={1}>
               <Scroll>
@@ -80,8 +83,9 @@ export default function AppShowCase() {
             <Preload />
           </Suspense>
           
-          </BrowserRouter>
+         
           
         </Canvas>
+        </div>
       )
 }

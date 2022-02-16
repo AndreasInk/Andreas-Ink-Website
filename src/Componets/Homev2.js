@@ -30,9 +30,10 @@ window.open("https://www.github.com/AndreasInk");
 }
 function Homev2() {
   return (
+    
     <div className="App">
       
-      <Header></Header>
+     
       <Home> </Home>
       
   <Innovator></Innovator>
@@ -40,6 +41,7 @@ function Homev2() {
       <Learner> </Learner>
 
     </div>
+   
   );
 }
 
