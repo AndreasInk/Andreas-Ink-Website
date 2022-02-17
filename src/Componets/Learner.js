@@ -40,9 +40,9 @@ return (
     
    
     <Stack  gap={3} direction="vertical">
-    <h4>Knowledgeable in 4 Languages</h4>
+    <h4>Deans List</h4>
     <h4>Awarded English Academic Excellence Award</h4>
-    <h4>4.14 High School GPA</h4>
+    <h4>3.80 College GPA</h4>
     </Stack>
   
     

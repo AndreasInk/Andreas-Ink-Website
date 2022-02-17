@@ -41,7 +41,7 @@ return (
    
     <Stack  gap={3} direction="vertical">
     <h4>7 Apps On The App Store</h4>
-    <h4>4/7 Hackathons Won</h4>
+    <h4>5/8 Hackathons Won</h4>
     <h4>23rd Ranked App on The App Store For Medical Apps</h4>
     </Stack>
   
