@@ -68,7 +68,7 @@ const AndreasAnimation = useSpring({
            
            <Col><div className="ball" style={animation}> <img className= "mockup" src={Mockup1} style={divStyle2} alt="Logo" /> <div className="d-grid gap-2"></div>
            </div></Col>
-           <Col><div className="ball" style={animation2}> <img src={Mockup2} className= "mockup" style={divStyle2} alt="Logo" /><div className="d-grid ms-auto">{' '}</div>;</div>
+           <Col><div className="ball" style={animation2}> <img src={Mockup2} className= "mockup" style={divStyle2} alt="Logo" /><div className="d-grid ms-auto">{' '}</div></div>
            <div className="ball" style={animation2}> <div className="d-grid ms-auto"></div></div>
            </Col>
            </Row>
